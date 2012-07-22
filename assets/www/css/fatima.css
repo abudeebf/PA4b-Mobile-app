@@ -1,0 +1,14 @@
+table#note{
+	overflow:scroll;
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+
+#note td {
+	border:1px solid  #FFA500 ;;
+	padding:3px;
+}
+#status
+{
+color:red;
+}

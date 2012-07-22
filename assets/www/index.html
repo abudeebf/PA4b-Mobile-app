@@ -5,26 +5,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
 	<title>PhoneGap MegaDemo</title> 
 	<link href="css/jquery.mobile-1.0rc1.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/fatima.css" rel="stylesheet" type="text/css" />
 	<script src="js/jquery-1.6.4.min.js"></script>
 	<script src="js/config.js"></script>
 	<script src="js/jquery.mobile-1.0rc1.min.js"></script>
 	<script type="text/javascript" charset="utf-8" src="js/cordova-1.9.0.js"></script>
 	<script type="text/javascript" src="js/demo.js"></script>
 </head> 
-<body> 
+<body id="noteindex"> 
 
-<div data-role="page">
+<div data-role="page" >
 
 	<div data-role="header">
-		<h1>JBS 2012 Super Virtual Tour App!!!!!</h1>
+		<h1>  Nerd Note</h1>
+		<h2> where you can be a nerd </h2>
 	</div>
-	
+	<div data-role="controlgroup">
+	    	<a id="addnote" data-role="button">Add note</a>  
+	    	</div>
+	    	<table id="note">
+	 </table>
 	<div data-role="content">	
-		<ul data-role="listview" data-inset="true">    
-	    	<li><a href="createtour.html">Create a Tour</li>
-	    </ul>
+	 
 	</div>
-	    	
+	 	
 	<!-- add in forms and a post method in the javascript ... -->
 </div>
 </body>
